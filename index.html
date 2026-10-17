@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nithya M G: a curious student turning curiosity into AI that helps real people.">
+  <title>Nithya M G | My Story</title>
+  <!-- handwriting fonts (fall back to cursive if offline) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="story.css">
+</head>
+<body>
+
+  <!-- the red margin line that "draws" itself as you scroll -->
+  <div class="margin-line"></div>
+  <div class="margin-fill" id="marginFill"></div>
+
+  <main class="page">
+
+    <!-- ================= HERO ================= -->
+    <header class="hero">
+      <div class="hero-text">
+        <!--<p class="eyebrow">iLEAD 2027 · Build Your Story</p>-->
+        <h1>I've always wanted to know how things work.</h1>
+        <p class="hero-sub">I'm Nithya M G. </p>
+        <p class="hero-small">Final-year CSE (AI) student, Bangalore.</p>
+        <div class="actions">
+          <a class="btn primary" href="#ch1">start reading ↓</a>
+          <!-- links are set in story.js (LINKS at the top) -->
+          <a class="btn" data-link="github" target="_blank" rel="noopener">GitHub ↗</a>
+          <a class="btn" data-link="linkedin" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+      <!-- your photo: save it as photos/me.jpg -->
+      <figure class="polaroid big tilt-r">
+        <span class="tape"></span>
+        <img src="photos/me.jpg" alt="Photo of Nithya">
+        <figcaption>that's me!</figcaption>
+      </figure>
+    </header>
+
+    <div class="tools">
+      <span>Tap any <b>＋ moment</b> to see the details and photo.</span>
+      <button id="toggleAll" class="link-btn">open all</button>
+    </div>
+
+    <!-- ================= CHAPTER 1 ================= -->
+    <section class="chapter" id="ch1">
+      <p class="chapter-no">chapter one</p>
+      <h2>It started with a question</h2>
+      <p>
+        As a kid I was the one who wanted to know <i>how</i> things worked, not just what they did.
+        When I started my B.E. in 2023, I found that AI was where that curiosity kept leading me.
+      </p>
+      <p>
+        I wanted to turn that curiosity into structured learning, and into a strong foundation I could build a future on:
+        one where I can help solve real-world problems.
+      </p>
+      <p class="aside">Outside of studies, I like to sketch. I'm no professional, I just enjoy it.</p>
+
+      <details class="moment" open>
+        <summary><span class="mdate">2023</span><span class="mtitle">Joined Dayananda Sagar</span></summary>
+        <div class="mbody">
+          <figure class="polaroid tilt-l">
+            <span class="tape"></span>
+            <img src="photos/dsatm.jpg" alt="Dayananda Sagar Academy of Technology and Management">
+            <figcaption>DSATM</figcaption>
+          </figure>
+          <div>
+            <p>Started my B.E. in Computer Science and Engineering (Artificial Intelligence) at Dayananda Sagar Academy of Technology and Management, Bangalore, with a 9.76 CGPA so far.</p>
+          </div>
+        </div>
+      </details>
+
+      <!-- your sketches: save them as photos/sketch1.jpg, sketch2.jpg, sketch3.jpg
+           (copy one <figure> block to add more, and edit the captions) -->
+      <details class="moment">
+        <summary><span class="mdate">Outside class</span><span class="mtitle">A few of my sketches</span></summary>
+        <div class="gallery">
+          <figure class="polaroid sketch tilt-l">
+            <span class="tape"></span>
+            <img src="photos/sketch1.jpg" alt="One of my sketches">
+            <figcaption>sketch one</figcaption>
+          </figure>
+          <figure class="polaroid sketch tilt-r">
+            <span class="tape"></span>
+            <img src="photos/sketch2.jpg" alt="One of my sketches">
+            <figcaption>sketch two</figcaption>
+          </figure>
+          <figure class="polaroid sketch tilt-l2">
+            <span class="tape"></span>
+            <img src="photos/sketch3.jpg" alt="One of my sketches">
+            <figcaption>sketch three</figcaption>
+          </figure>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= CHAPTER 2 ================= -->
+    <section class="chapter">
+      <p class="chapter-no">chapter two</p>
+      <h2>Getting the basics right</h2>
+      <p>
+        Before building anything big, I wanted the fundamentals to be solid: Java, machine learning and the cloud.
+        So in 2025 I took NPTEL courses next to my semesters, and picked up hands-on AWS practice along the way.
+      </p>
+
+      <details class="moment">
+        <summary><span class="mdate">Jan to Apr 2025</span><span class="mtitle">NPTEL: Programming in Java</span></summary>
+        <div class="mbody">
+          <figure class="polaroid cert tilt-r">
+            <span class="tape"></span>
+            <img src="photos/nptel-java.jpg" alt="NPTEL Java certificate">
+            <figcaption>NPTEL · Java</figcaption>
+          </figure>
+          <div><p>A certification course on Java programming, taken alongside my semester.</p></div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">Jul to Sep 2025</span><span class="mtitle">NPTEL: Introduction to Machine Learning</span></summary>
+        <div class="mbody">
+          <figure class="polaroid cert tilt-l">
+            <span class="tape"></span>
+            <img src="photos/nptel-ml.jpg" alt="NPTEL Machine Learning certificate">
+            <figcaption>NPTEL · ML</figcaption>
+          </figure>
+          <div><p>A course on the fundamentals of machine learning, a natural fit with my AI degree.</p></div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">Jul to Oct 2025</span><span class="mtitle">NPTEL: Cloud Computing</span></summary>
+        <div class="mbody">
+          <figure class="polaroid cert tilt-r">
+            <span class="tape"></span>
+            <img src="photos/nptel-cloud.jpg" alt="NPTEL Cloud Computing certificate">
+            <figcaption>NPTEL · Cloud</figcaption>
+          </figure>
+          <div><p>A course on cloud computing concepts, running alongside my hands-on AWS work.</p></div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">25 Aug 2025</span><span class="mtitle">Infosys Springboard × AWS Skill Builder</span></summary>
+        <div class="mbody">
+          <div class="photo-stack">
+            <figure class="polaroid tilt-l">
+              <span class="tape"></span>
+              <img src="photos/aws.jpg" alt="AWS Skill Builder launch">
+              <figcaption>Skill Builder launch</figcaption>
+            </figure>
+            <figure class="polaroid cert tilt-r">
+              <span class="tape"></span>
+              <img src="photos/aws2.jpg" alt="AWS Cloud Quest badge">
+              <figcaption>Cloud Quest badge</figcaption>
+            </figure>
+          </div>
+          <div>
+            <p>Attended the program launch at the Electronic City Campus, then completed the <b>AWS Cloud Quest: Cloud Practitioner</b> training badge as part of it.</p>
+            <p>Hands-on, gamified learning plus expert sessions: a good start for cloud fundamentals next to my AI coursework.</p>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= CHAPTER 3 ================= -->
+    <section class="chapter">
+      <p class="chapter-no">chapter three</p>
+      <h2>Pointing it at real problems</h2>
+      <p>
+        Then came the part I'd been waiting for. I started aiming AI at problems people actually face:
+        air quality you can't see, accidents that almost happen on the road, someone listening in on a secure network,
+        and the stress of writing a job application.
+      </p>
+
+      <details class="moment">
+        <summary><span class="mdate">4 Dec 2025</span><span class="mtitle">VayuBandhu at NCRIE-2025</span></summary>
+        <div class="mbody">
+          <div class="photo-stack">
+            <figure class="polaroid cert tilt-l2">
+              <span class="tape"></span>
+              <img src="photos/ncrie.jpg" alt="NCRIE-2025 certificate">
+              <figcaption>NCRIE-2025</figcaption>
+            </figure>
+            <figure class="polaroid tilt-r">
+              <span class="tape"></span>
+              <img src="photos/ncrie2.jpg" alt="Presenting at NCRIE-2025">
+              <figcaption>presenting</figcaption>
+            </figure>
+          </div>
+          <div>
+            <p>Presented a research paper on <b>VayuBandhu</b>, a multilingual, geospatial chatbot for real-time air quality monitoring, at the National Conference on Recent Innovations in Engineering, organised by K. S. Institute of Technology, Bengaluru.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">10 and 11 Jan 2026</span><span class="mtitle">WCSC 2026, presented virtually</span></summary>
+        <div class="mbody">
+          <figure class="polaroid tilt-r">
+            <span class="tape"></span>
+            <img src="photos/wcsc.jpg" alt="WCSC 2026">
+            <figcaption>WCSC 2026</figcaption>
+          </figure>
+          <div>
+            <p>Presented my paper at the 3rd World Congress on Smart Computing, held in Bangkok.</p>
+            <p class="paper">"Spatio-Temporal Graph Convolutional Network for Proactive Near-Miss Traffic Incident Detection using Multi-Agent Dynamics"</p>
+            <p>An ST-GCN + LSTM framework that models multi-agent traffic behaviour and flags near-misses before they happen, processing video in real time at <b>80 FPS</b>.</p>
+            
+          </div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">5 Feb to 5 Apr 2026</span><span class="mtitle">Infosys Springboard Internship 6.0</span></summary>
+        <div class="mbody">
+          <figure class="polaroid cert tilt-l">
+            <span class="tape"></span>
+            <img src="photos/infosys.jpg" alt="Infosys Internship 6.0 certificate">
+            <figcaption>Internship 6.0</figcaption>
+          </figure>
+          <div>
+            <p>Built an <b>Intelligent Personalized Cover Letter Generation System</b>, a full-stack AI career assistant. It extracts resume text, checks job compatibility and writes ATS-optimised cover letters, with an interview-prep mode that turns documents into quizzes and behaviour-based questions.</p>
+            <p class="credit">Built with Streamlit, LLaMA (Ollama) and PaddleOCR.</p>
+          </div>
+        </div>
+      </details>
+
+      <details class="moment">
+        <summary><span class="mdate">Filed 1 May · Published 15 May 2026</span><span class="mtitle">Patent application, published</span></summary>
+        <div class="mbody">
+          <figure class="polaroid tilt-r">
+            <span class="tape"></span>
+            <img src="photos/patent.jpg" alt="Patent application publication">
+            <figcaption>published!</figcaption>
+          </figure>
+          <div>
+            <p class="paper">"FPGA-Embedded AI System for Real-Time Eavesdropping Detection and Autonomous Response in Quantum Key Distribution Networks"</p>
+            <p>A patent application I contributed to, published by the Indian Patent Office (No. IN202641055662 A1). It pairs FPGA signal processing with a lightweight neural network to catch attacks on quantum key distribution channels in real time and trigger a hardware-level response that protects the key material.</p>
+            <p class="credit">With the team of inventors at DSATM, Bangalore.</p>
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= CHAPTER 4 ================= -->
+    <section class="chapter">
+      <p class="chapter-no">chapter four</p>
+      <h2>Seeing how real work happens</h2>
+      <p>
+        College projects are one thing. This year I spent a month seeing how AI is used in a real brand's everyday work,
+        and I learned how much the quality of a prompt decides the quality of the result.
+      </p>
+
+      <details class="moment">
+        <summary><span class="mdate">10 Jul to 10 Aug 2026</span><span class="mtitle">AI Operations Intern, House of Misoli</span></summary>
+        <div class="mbody">
+          <figure class="polaroid tilt-l2">
+            <span class="tape"></span>
+            <img src="photos/misoli.jpg" alt="House of Misoli internship">
+            <figcaption>House of Misoli</figcaption>
+          </figure>
+          <div>
+            <p>A one-month internship focused on AI-generated imagery for the brand's product and creative visualisation workflows. Good hands-on practice in prompt engineering, applied to real production and brand work.</p>
+            
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <!-- ================= CHAPTER 5 ================= -->
+    <section class="chapter">
+      <p class="chapter-no">chapter five</p>
+      <h2>Where I'm headed</h2>
+      <p>
+        I want to be someone responsible and hardworking, who can be counted on to contribute to a project and see it through.
+        Most of all, I want my work to make a real difference to society and to the country I live in.
+      </p>
+      <p>
+        iLEAD at GyanSys is the next step: learning how real teams build real things.
+        This page is my first assignment, and I'm glad it gets to tell my story.
+      </p>
+
+      <details class="moment">
+        <summary><span class="mdate">Oct 2026</span><span class="mtitle">iLEAD 2027 at GyanSys</span></summary>
+        <div class="mbody">
+          <figure class="polaroid tilt-r">
+            <span class="tape"></span>
+            <img src="photos/ilead.jpg" alt="Me at the start of iLEAD 2027">
+            <figcaption>here we go</figcaption>
+          </figure>
+          <div><p>Chapter six starts here, and it's still blank.<br> I’d like to write it with you </p></div>
+        </div>
+      </details>
+
+      <div class="actions end">
+        <a class="btn" data-link="github" target="_blank" rel="noopener">GitHub ↗</a>
+        <a class="btn" data-link="linkedin" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+      <p class="scribble">I started by asking how things work. Now I want to help make them work better</p>
+    </section>
+
+  </main>
+
+  <!--<footer>
+    <p>Made by Nithya M G for iLEAD 2027. HTML, CSS and JavaScript written with an AI assistant as a pair-programmer. No frameworks, just the basics.</p>
+  </footer>-->
+
+  <script src="story.js"></script>
+</body>
+</html>
